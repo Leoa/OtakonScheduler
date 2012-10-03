@@ -1,0 +1,60 @@
+
+			/*	Integer x=(int)delete.size();
+			
+			System.out.println("size of delete list "+x);
+			for(int i=0;i<delete.size();i++){
+				
+				Integer deletflagCheck =delete.get(i); 
+				 System.out.println("NewsRowAdpaper is at postion :"+deletflagCheck); 
+
+			if (view != null && position == deletflagCheck) {
+				view.setBackgroundColor(Color.YELLOW);
+			    }
+			
+			}*/
+			
+	/*if (holder.tv_event_delete_flag != null && null != objBean.getDeleteFlag ()
+				&& objBean.getLocation ().trim().length() > 0) {
+			holder.tv_event_delete_flag.setText(Html.fromHtml(objBean.getDeleteFlag ()));
+		}*/
+		
+
+pub
+
+////////////
+
+    System.out.println(date);
+       String eventYear =date.substring(0,4);
+       String eventDay =date.substring(5,7);
+       String eventMonth =date.substring(8,10);
+       System.out.println(eventYear+ " is year "+eventMonth+ " is month "+eventDay+" is event day");
+       int Month=parseInt(eventMonth);
+       int Year=parseInt(eventYear);
+       int Day=parseInt(eventDay);
+        mYear = c.get(Year);
+        mMonth = c.get(Month);
+        mDay = c.get(Day);
+        
+        int index = startTime.indexOf(':');
+        defaultStartHour= startTime.substring(0,index);
+        defaultStartMin =startTime.substring(index+1, index+3);
+        index = endTime.indexOf(':');
+        defaultEndHour= endTime.substring(0,index);
+        defaultEndMin =endTime.substring(index+1, index+3);
+        
+        int dsh=Integer.parseInt(defaultStartHour);
+        int dsm=Integer.parseInt(defaultStartMin);
+//        ConvertStdTime ConvertStartTime= new ConvertStdTime();
+//    	  String x =ConvertStartTime.setTime(dsh, dsm, 00);
+//        System.out.println("conveted start time "+x);
+//        
+//        Date now = new Date(startTime);
+//        SimpleDateFormat militaryTime = new SimpleDateFormat("kk:mm");
+//        System.out.println("The time is " + militaryTime.format(now));
+        Date d1 = new Date();
+        d1.setHours(startHour);
+        Date d2 = new Date();
+        d1.setHours(endHour);
+            	 int results = d1.compareTo(d2);
+            	 
+            	 System.out.println(" campare is " +results);

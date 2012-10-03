@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        android:id="@+id/parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Resolvetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reslove Time Conflict" />
+
+    <TextView
+        android:id="@+id/NameDisplayx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Resolvetxt"
+        android:text="Event: " />
+
+    <TextView
+        android:id="@+id/NameDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/NameDisplayx"
+        android:layout_toRightOf="@id/NameDisplayx"
+        android:text="x" />
+
+    <TextView
+        android:id="@+id/DateDisplayx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NameDisplayx"
+        android:text="Day: " />
+
+    <TextView
+        android:id="@+id/DateDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/DateDisplayx"
+        android:layout_toRightOf="@id/DateDisplayx"
+        android:text="x" />
+
+    <TextView
+        android:id="@+id/StartTimeDisplayx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DateDisplayx"
+        android:text="Start Time: " />
+
+    <TextView
+        android:id="@+id/StartTimeDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/StartTimeDisplayx"
+        android:layout_toRightOf="@id/StartTimeDisplayx"
+        android:text="x" />
+
+    <TextView
+        android:id="@+id/EndTimeDisplayx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/StartTimeDisplayx"
+        android:text="End Time: " />
+
+    <TextView
+        android:id="@+id/EndTimeDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/EndTimeDisplayx"
+        android:layout_toRightOf="@id/EndTimeDisplayx"
+        android:text="x" />
+
+    <TextView
+        android:id="@+id/LocationDisplayx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EndTimeDisplayx"
+        android:text="Location: " />
+
+    <TextView
+        android:id="@+id/LocationDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/LocationDisplayx"
+        android:layout_toRightOf="@id/LocationDisplayx"
+        android:text="x" />
+
+    <Button
+        android:id="@+id/btnUpdateSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/Resolvetxt"
+        android:text="Update Schedule" />
+
+    <Button
+        android:id="@+id/btnSeeSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/NameDisplayx"
+        android:text="See Schedule" />
+    <!--
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/LocationDisplayx"
+        android:layout_marginTop="52dp" >
+
+    </ListView>
+    -->
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/LocationDisplayx"
+        android:orientation="vertical" >
+    </RelativeLayout>
+
+</RelativeLayout>

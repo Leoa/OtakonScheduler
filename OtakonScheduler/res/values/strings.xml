@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">OtakonScheduler</string>
+<string name="planet_prompt">Change Location : </string>
+    <string-array name="locations_array">
+        <item>Arena</item>
+        <item>Video 1</item>
+        <item>Video 2</item>
+        <item>Video 3</item>
+        <item>Video 4</item>
+        <item>Video 5</item>
+        <item>Video 6</item>
+        <item>HD Theater</item>
+		<item>Panel 1</item>
+        <item>Panel 2</item>
+        <item>Panel 3</item>
+        <item>Panel 4</item>
+        <item>WorkShop 1</item>
+        <item>WorkShop 2</item>
+        <item>WorkShop 3</item>
+        <item>Autograph 1</item>
+        <item>Autograph 2</item>
+    </string-array>
+    
+</resources>
